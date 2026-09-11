@@ -1,0 +1,44 @@
+# ===== 通用忽略规则 =====
+# 名字以 # 开头的行是注释，Git 会忽略这些行
+
+# --- 系统和编辑器产生的垃圾文件 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.bak
+*.tmp
+
+# --- 千万不要提交的东西（重要！）---
+# 密钥、密码、令牌一旦提交上去，即使删掉也永远留在历史记录里
+.env
+.env.local
+*.key
+*.pem
+*_secret*
+*_password*
+*_token*
+id_rsa*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# --- 日志和临时输出 ---
+*.log
+output/
+temp/
