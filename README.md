@@ -29,6 +29,13 @@ git push                  # 5. 上传到 GitHub
 | `NOTES.md` | 学习日志，一条一条往下记 |
 | `.gitignore` | 告诉 Git 哪些文件不用管（临时文件、密码文件等） |
 | `README.md` | 就是你现在看的这份说明 |
+| `oracle/环境速查.md` | 每次开机怎么把 Oracle 环境拉回来（Docker / DBeaver / 常用命令） |
+| `oracle/01-create-and-query.sql` | 建表 → 插入 → 查询（设备台账） |
+| `oracle/02-practice.sql` | 第一课的练习本 |
+| `oracle/03-create-user.sql` | 给自己建账号、授权、跨模式搬表 |
+| `oracle/04-join.sql` | **多表关联（JOIN）**：建维修工单表 + 9 段可跑的例子 |
+| `oracle/05-join-practice.sql` | 多表关联的练习本（留白，自己写） |
+| `oracle/05-join-practice-答案.sql` | 上面的参考答案（在库里真跑过、结果核对过） |
 
 ## 万一改坏了怎么办
 
